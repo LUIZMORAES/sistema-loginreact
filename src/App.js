@@ -1,8 +1,13 @@
-import React from 'react'
+import React from 'react';
+import GlobalStyle from './styles/global.js';
+import RoutesApp from './routes/index.js';
 
 const App = () => {
   return (
-    <div>App</div>
+    <>
+    <RoutesApp />
+    <GlobalStyle />
+    </>
   )
 }
 
